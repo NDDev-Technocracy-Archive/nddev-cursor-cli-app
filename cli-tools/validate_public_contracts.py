@@ -1061,7 +1061,7 @@ def main() -> int:
     if contract is not None:
         if contract.get("contract_version") != 3:
             errors.append("config/nddev-contract.json: contract_version must be 3")
-        if contract.get("github_repository") != "NDDev-it-com/nddev-cursor-cli-app":
+        if contract.get("github_repository") != "rldyourmnd/nddev-cursor-cli-app":
             errors.append("config/nddev-contract.json: unexpected github_repository")
         if "skeleton" in contract:
             errors.append("config/nddev-contract.json: skeleton must be removed")

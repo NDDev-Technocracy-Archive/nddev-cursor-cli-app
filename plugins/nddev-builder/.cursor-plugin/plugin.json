@@ -5,8 +5,8 @@
   "author": {
     "name": "NDDev"
   },
-  "homepage": "https://github.com/NDDev-it-com/nddev-cursor-cli-app",
-  "repository": "https://github.com/NDDev-it-com/nddev-cursor-cli-app",
+  "homepage": "https://github.com/rldyourmnd/nddev-cursor-cli-app",
+  "repository": "https://github.com/rldyourmnd/nddev-cursor-cli-app",
   "rules": "./rules",
   "skills": "./skills",
   "agents": "./agents",

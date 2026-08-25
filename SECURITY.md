@@ -9,7 +9,7 @@ repository. Only the latest numeric release is supported.
 ## Reporting a vulnerability
 
 Report vulnerabilities privately through GitHub Security Advisories for
-`NDDev-it-com/nddev-cursor-cli-app`. Do not publish credentials, tokens,
+`rldyourmnd/nddev-cursor-cli-app`. Do not publish credentials, tokens,
 private configuration, or backup contents in an issue or pull request.
 
 ## Baseline controls

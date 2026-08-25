@@ -37,7 +37,7 @@
   "contract_version": 3,
   "description": "Portable, target-explicit manager for Cursor CLI configuration, target-owned Cursor Agent software, and a default-on native nddev-builder Cursor plugin projection.",
   "display_name": "NDDev Cursor CLI Setup Manager",
-  "github_repository": "NDDev-it-com/nddev-cursor-cli-app",
+  "github_repository": "rldyourmnd/nddev-cursor-cli-app",
   "legacy_policy": {
     "install_switch_denied": true,
     "launch_denied": true,
