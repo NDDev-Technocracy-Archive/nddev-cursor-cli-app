@@ -98,3 +98,12 @@ plugin, rules, skills, custom agents, and commands surfaces. It does not
 activate hooks or MCP servers and does not provision Cursor team marketplaces.
 Exact projection paths and installed surfaces are owned by
 `config/nddev-contract.json`, `build/manifest.json`, and `status --json`.
+
+## Source maintenance checks
+
+`just check` validates the retained public contracts, workflow files and source
+history. `just verify` runs the complete source check. CI prepares Python and
+native audit tools from `.github/workflows/ci.yml` and the archive/member hashes in
+`.github/ci-tools.json`; local checks require those tools on `PATH`.
+These checks do not execute Cursor, authenticate a provider, update vendor files or
+publish a release.
